@@ -1,0 +1,46 @@
+body {
+    background-color: #1E0E3F;
+    color: #DDBE9B;
+}
+
+.theme-color {
+    background-color: #3B2567;
+    border-radius: 20px;
+}
+
+header {
+    height: 400px;
+    background-color: #FBEFDE;
+    color: #3B2567;
+}
+
+footer {
+    background-color: #FBEFDE;
+    color: #3B2567;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+#main h2 {
+    text-align: center;
+}
+
+section a:hover {
+    text-decoration: none;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    figure img{
+        height: 300px;
+        width: 300px;
+    }
+
+    #main {
+        width: 60%;
+        margin: auto;
+    }
+}
